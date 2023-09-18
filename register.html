@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/register.css">
+    <title>Register</title>
+</head>
+
+
+<body>
+    <nav class="main-nav">
+        <ul class="nav-list">    
+             <img class="nav-logo" src="/images/logo.png" alt="logo">
+        
+            <li class="nav-item">
+                <a class="nav-link" href="">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">Contacto</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">Acerca de</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">Registro</a>
+            </li>
+        </ul>
+    </nav>
+
+
+<section class="main_container">
+    <h1>REGISTRO</h1>
+    
+    <hr>
+
+    <div class="formulario">
+
+        <form class="formulario_hijo" method="post">
+            
+
+          <label> Nombre completo <input type="text" name="nombre completo" placeholder="Nombre Apellido" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" step="30" required></label>
+          
+    
+          <label> Email <input type="email" name="correo electronico" placeholder="Correoelectronico@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required></label>
+        
+
+          <label> Contraseña <input type="password" name="Contraseña" placeholder="Contraseña" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required></label>
+        
+
+          <label> Repetir contraseña <input type="password" name="repetir contraseña" placeholder="Repetir Contraseña" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required></label>
+        
+
+           <label> Fecha de nacimiento <input type="date" name="fecha de nacimiento" placeholder="dd/mm/aaa"></label>
+        
+
+        <div class="input"> 
+           <label> Seleccione su provincia <select name=slist>
+            <option value="Buenos Aires">Buenos Aires</option>
+            <option value="Buenos Aires Capital">Buenos Aires Capital</option>
+            <option value="Catamarca">Catamarca</option>
+            <option value="Chaco">Chaco</option>
+            <option value="Chubut">Chubut</option>
+            <option value="Cordoba">Cordoba</option>
+            <option value="Corrientes">Corrientes</option>
+            <option value="Entre Rios">Entre Rios</option>
+            <option value="Formosa">Formosa</option>
+            <option value="Jujuy">Jujuy</option>
+            <option value="La Pampa">La Pampa</option>
+            <option value="La Rioja">La Rioja</option>
+            <option value="Mendoza">Mendoza</option>
+            <option value="Misiones">Misiones</option>
+            <option value="Neuquen">Neuquen</option>
+            <option value="Rio Negro">Rio Negro</option>
+            <option value="Salta">Salta</option>
+            <option value="San Juan">San Juan</option>
+            <option value="San Luis">San Luis</option>
+            <option value="Santa Cruz">Santa Cruz</option>
+            <option value="Santa Fe">Santa Fe</option>
+            <option value="Santiago del Estero">Santiago del Estero</option>
+            <option value="Tierra del Fuego">Tierra del Fuego</option>
+            <option value="Tucuman">Tucuman</option>
+            </select></label>
+        </div>
+
+        <div class="input">   
+        <label> Observaciones <textarea></textarea></label>
+        </div>
+
+           <button>Registrarme</button>
+        </form>
+    </div>
+
+</section>
+
+<footer>
+<div class="footer_1">
+    <p><img src="/icons8-facebook-50.png" alt="Facebook">Facebook</p>
+    
+
+    <p><img src="/icons8-twitter-30.png" alt="Twitter">Twitter</Twiter>
+    
+
+    <p><img src="/icons8-instagram-50.png" alt="Instagram">Instagram</p>
+    
+</div>
+
+<div class="footer_1">
+    <p class="neo_gamers"> Neo Gamers © </p>
+</div>
+
+<div class="footer_1">
+    <p><img src="/icons8-gmail-30.png" alt="Correo">Correo</p>
+
+    
+    <p><img src="/icons8-call-30.png" alt="Teléfono">Teléfono</p>
+
+    
+    <p><img src="/icons8-map-50.png" alt="Dirección">Dirección</p>
+</div>    
+</footer>
+
+</body>
+</html>
